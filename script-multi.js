@@ -20,7 +20,7 @@ document.querySelector("#guess-word").innerHTML = guess.join(" ");
 
 function guessLetter () {
 
-    let input = document.querySelector("#input").value;
+    let input = document.querySelector("#input").value.toLowerCase();
 
     // Si la lettre dans le input ne se trouve pas dans le mot alors failure augmente
 
