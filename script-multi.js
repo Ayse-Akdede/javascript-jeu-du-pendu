@@ -1,8 +1,7 @@
-// Jeu du pendu mode single
+// Jeu du pendu mode multiplayer
 
-const words = ["LIVREUR", "FESSIER", "VOULOIR", "ACTIVER", "VIVANTE", "GROUPIE", "ADOPTER", "VISITER", "ORDINATEUR", "PAPA", "PENDU", "TROU", "MUR", "FARDE", "COULEUR", "INDESTRUCTIBLE", "INTERFERENCE", "DEVELOPPEUR", "SOURIS", "CLAVIER", "ECHELLE", "FOOTBALL", "DAME", "TABLEAU", "FORMATION", "FRITE", "TRANSPORT"];
-let randword = words[Math.floor(Math.random() *words.length)];
-let word = [...randword];
+const words = prompt("Player one, give a word in lowercase!");
+let word = [...words];
 const letters = word;
 let guess = [];
 // Pour générer des underscore en fonction du nombre de lettres
@@ -21,7 +20,7 @@ document.querySelector("#guess-word").innerHTML = guess.join(" ");
 
 function guessLetter () {
 
-    let input = document.querySelector("#input").value.toUpperCase();
+    let input = document.querySelector("#input").value;
 
     // Si la lettre dans le input ne se trouve pas dans le mot alors failure augmente
 
