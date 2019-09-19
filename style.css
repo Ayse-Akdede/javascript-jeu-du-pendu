@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    background-color: #aad1e6;
+}
+
+#congratulations {
+    font-size: 50px;
+    text-transform: uppercase;
+}
