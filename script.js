@@ -176,6 +176,8 @@ document.querySelector("#try").addEventListener("click", () => {
         button.appendChild(textbutton);
 
         document.querySelector("#newGame").appendChild(button);
+
+        document.querySelector("#try").disabled = true;
     }
 
     // Bouton try again
