@@ -6,7 +6,7 @@
 
 ## Participants
 
-Ayse Akdede
+Ayse Akdede  
 Maxime Cao
 
 ## Projet
